@@ -1,7 +1,7 @@
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 // import Footer from "./components/footer/Footer";
-// import FooterBottom from "./components/footer/FooterBottom";
+import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         {/* <Testimonial /> */}
         <Contact />
         {/* <Footer /> */}
-        {/* <FooterBottom /> */}
+        <FooterBottom />
       </div>
     </div>
   );
